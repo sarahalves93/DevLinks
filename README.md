@@ -1,7 +1,7 @@
 <h1 align="center"> DevLinks </h1>
 
 <p align="center">
- Esse foi um projeto foi elaborado no curso de Especialização em Discover da Rocketseat. O desafio foi criar uma página de link utilizando o protótipo no Figma e codificando em HTML, CSS e JavaScript.
+ Esse projeto foi elaborado no curso de Especialização em Discover da Rocketseat. O desafio foi criar uma página de link utilizando o protótipo no Figma e codificando em HTML, CSS e JavaScript.
 </p>
 
 <p align="center">
