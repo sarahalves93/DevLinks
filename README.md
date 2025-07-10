@@ -17,10 +17,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Git e Github
 - Figma
 
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto original através [DESSE LINK](https://www.figma.com/community/file/1187422022288947321). É necessário ter conta no Figma para acessá-lo.
-
 ## 📝 Licença
 
 Esse projeto está sob a licença MIT.
