@@ -9,7 +9,7 @@
 
 html {
   --text-color: white;
-  --bg-url: url(/img/bg-desktop.jpg) no-repeat top center/cover;
+  --bg-url: url(/img/bg-mobile.jpg) no-repeat top center/cover;
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(255, 255, 255, 0.02);
@@ -19,7 +19,7 @@ html {
 
 .light {
   --text-color: black;
-  --bg-url: url(/img/bg-desktop-light.jpg) no-repeat top center/cover;
+  --bg-url: url(/img/bg-mobile-light.jpg) no-repeat top center/cover;
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.1);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -29,6 +29,7 @@ html {
 
 body {
   background: var(--bg-url);
+  height: 92vh;
 }
 
 body * {
@@ -40,11 +41,11 @@ body * {
 #container {
   width: 100%;
   max-width: 588px;
-  margin: 56px auto 0px;
+  margin: 56px auto 0 auto;
 }
 
 #profile {
-  margin-top: 52px;
+  margin-top: 0px;
   padding: 24px;
 }
 
@@ -150,4 +151,14 @@ footer {
 footer a {
   color: var(--stroke-color);
   text-decoration: underline;
+}
+
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(/img/bg-desktop.jpg) no-repeat top center/cover;
+  }
+
+  .light {
+    --bg-url: url(/img/bg-desktop-light.jpg) no-repeat top center/cover;
+  }
 }
